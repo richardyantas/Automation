@@ -1,0 +1,8 @@
+git init
+git subl .gitignore  && /videos
+git add .
+git commit -m "version 1"
+git branch richard
+git status
+git log
+git checkout richard 
