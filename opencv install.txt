@@ -1,0 +1,10 @@
+
+
+sudo apt-get install libopencv-dev python-opencv
+sudo apt-get autoremove libopencv-dev python-opencv
+
+https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh
+
+bash install-opencv.sh
+
+https://milq.github.io/install-opencv-ubuntu-debian/
