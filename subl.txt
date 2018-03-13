@@ -11,3 +11,11 @@ B8EB32F8 8D415F8E F16FE657 A35381CC
 290E2905 96E81236 63D2B06D E5F01A69
 84174B79 7C467714 641A9013 94CA7162
 ------ END LICENSE ------
+
+
+For doesnt open twice.
+add in setting user.
+{
+  "hot_exit": false,
+  "remember_open_files": false
+}
