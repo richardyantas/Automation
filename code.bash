@@ -22,3 +22,6 @@ commands in terminal
 delete a folder 
 
 rm -r file_name
+
+
+mv rename_files.sh ../50 && cd ../50/ && source rename_files.sh
