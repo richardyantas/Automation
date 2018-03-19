@@ -15,3 +15,10 @@ for i in *.txt; do
 	mv ${i} ${p}
 	n=$((n+1))
 done
+
+
+commands in terminal 
+
+delete a folder 
+
+rm -r file_name
