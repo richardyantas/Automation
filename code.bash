@@ -33,3 +33,6 @@ cd ~
 
 echo “some text” > /path/file_name.txt 
 
+/usr/include/pcl-1.7/pcl/io/openni_grabber.h
+
+
