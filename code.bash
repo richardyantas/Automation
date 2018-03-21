@@ -25,3 +25,11 @@ rm -r file_name
 
 
 mv rename_files.sh ../50 && cd ../50/ && source rename_files.sh
+
+lsusb
+cal
+cd /
+cd ~
+
+echo “some text” > /path/file_name.txt 
+
