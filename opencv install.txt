@@ -8,3 +8,19 @@ https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh
 bash install-opencv.sh
 
 https://milq.github.io/install-opencv-ubuntu-debian/
+
+
+cmake
+
+sudo apt install libopencv-dev
+
+
+
+    apt-get install libopencv-dev
+    export OpenCV_DIR=/usr/share/OpenCV
+    the header of cpp file should contain: #include #include "opencv2/highgui/highgui.hpp"
+
+#include #include
+
+not original cv.h
+
