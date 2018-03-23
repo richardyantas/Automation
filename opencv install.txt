@@ -24,3 +24,54 @@ sudo apt install libopencv-dev
 
 not original cv.h
 
+
+find / -name "OpenCVConfig.cmake"
+
+
+CMakeLists.txt
+
+cmake_minimum_required(VERSION 2.8)
+project(test)
+find_package(OpenCV REQUIRED)
+add_executable(test test.cpp)
+target_link_libraries(test ${OpenCV_LIBS})
+
+
+test.cpp
+
+#include<iostream>
+#include<cstring>
+
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/opencv.hpp"
+
+using namespace std;
+using namespace cv;
+
+#define windowName "video"
+
+Size patternSize = Size(7,5);
+
+int main()
+{
+	
+	cout << " ricc ric " << endl;
+	
+	string video_path = "../acirc.webm";
+
+	VideoCapture cap(video_path);
+	namedWindow(windowName,0);
+	resizeWindow(windowName,1000,1000);
+
+	Mat frame;
+
+	while(1)
+	{
+		cap >> frame;
+
+		if(frame.empty()) break;
+		//if(imwrite(video_path,frame))
+		imshow(windowName,frame);
+		waitKey(5);
+	}
+}
