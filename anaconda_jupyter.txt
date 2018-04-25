@@ -8,3 +8,11 @@ source activate env_tf
 https://www.tensorflow.org/install/install_linux
 
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
+
+https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
+
+
+install CUDNN
+*************
+
+
