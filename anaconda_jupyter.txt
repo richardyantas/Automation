@@ -1,0 +1,10 @@
+
+https://docs.anaconda.com/anaconda/install/linux
+bash ~/Downloads/Anaconda3-5.1.0-Linux-x86_64.sh
+
+conda create --name env_tf python=3.5
+source activate env_tf
+
+https://www.tensorflow.org/install/install_linux
+
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
