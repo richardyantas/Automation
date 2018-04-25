@@ -1,0 +1,9 @@
+make a book related to reseach and comerciable in this time so as make a videos on youtube and homepage related to works
+data science applied to bussiness.
+
+           Data Science
+           ************
+Graphical Models vs Deep Learning
+
+pdflatex main.tex
+xdg-open main.pdf
