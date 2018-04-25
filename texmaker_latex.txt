@@ -5,5 +5,7 @@ data science applied to bussiness.
            ************
 Graphical Models vs Deep Learning
 
+thesis payment way blaz
+
 pdflatex main.tex
 xdg-open main.pdf
