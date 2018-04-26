@@ -9,3 +9,24 @@ thesis payment way blaz
 
 pdflatex main.tex
 xdg-open main.pdf
+
+
+install LATEX ON ubuntu:
+sudo apt install textlive-full
+
+touch example.tex
+
+\documentclass{article}
+\begin{document}
+           hello world!
+\end{document}
+
+
+and then:
+
+pdflatex example.tex  && xdg-open example.pdf
+
+
+
+
+
