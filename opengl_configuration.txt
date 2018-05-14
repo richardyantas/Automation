@@ -1,3 +1,18 @@
+Installation: 
+
+Install OpenGL
+**************
+
+Install GLUT
+**************
+sudo apt-get install freeglut3 freeglut3-dev
+
+Install GLEW
+**************
+sudo apt-get update
+sudo apt-get install libglew-dev
+
+
 #include<GL/glew.h>
 #include<GL/glut.h>
 
