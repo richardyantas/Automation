@@ -1,0 +1,14 @@
+
+
+Download Portable Android.
+Extract -> cd AndroidStudio -> cd bin -> ./studio.sh
+
+Activity_main.xml
+mainActivity.java
+
+Layouts
+*******
+
+
+
+To learn Ios Programming, to make productivity aplications to myself
