@@ -1,0 +1,8 @@
+Install Shotcut
+***************
+
+sudo apt install libsdl2-2.0-0
+sudo apt install shotcut
+
+Tutorial:
+https://www.youtube.com/watch?v=OQAWC8zZbSQ
