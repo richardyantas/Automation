@@ -22,6 +22,10 @@ Install some dependencies
 sudo apt-get install libxmu-dev libxi-dev
 
 
+Install fependecies tutorial
+****************************
+https://rizaldijs.wordpress.com/2017/10/28/setting-up-glfw-glad-with-clion-on-ubuntu/
+
 #include<GL/glew.h>
 #include<GL/glut.h>
 
