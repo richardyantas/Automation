@@ -12,6 +12,10 @@ Install GLEW
 sudo apt-get update
 sudo apt-get install libglew-dev
 
+Install GLFW
+
+sudo apt-get install libglfw3-dev libglfw3
+
 
 Install some dependencies
 *************************
