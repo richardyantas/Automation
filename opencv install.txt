@@ -12,7 +12,10 @@ https://milq.github.io/install-opencv-ubuntu-debian/
 
 cmake
 
-sudo apt install libopencv-dev
+
+***********************************
+sudo apt install libopencv-dev (It should be enough!)
+********************************
 
 
 
